@@ -1,9 +1,8 @@
 #ifndef AA_H
 #define AA_H
 
-#include <iostream>
+#include "write.h"
 #include <fstream>
-#include <vector>
 #include <sstream>
 
 struct DashBoard{
@@ -11,7 +10,7 @@ struct DashBoard{
 	float IPS;
 };
 
-extern vector<DashBoard> DashBoardData;
+extern std::vector<DashBoard> DashBoardData;
 
 void readData();
 void writeData();
