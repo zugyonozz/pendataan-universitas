@@ -1,7 +1,7 @@
 # pendataan-universitas
  aplikasi pendataan universitas
 
--> src
+-> src\n
   -> dashboard
     -> dashboard.cpp
     -> render.cpp
